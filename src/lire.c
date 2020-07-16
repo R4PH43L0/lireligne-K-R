@@ -10,7 +10,7 @@
 int lire(char *s, int lim){
     
     int c;
-//    char *p = s;
+    char *p = s;
     
     while( --lim > 0 && (c=getchar())!= EOF && c !='\n')
         *s++ = c;
